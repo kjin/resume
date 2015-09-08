@@ -1,0 +1,150 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fullpage} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+\addtolength{\voffset}{-1.5cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Kelvin Jin}\\
+(607) 793-1588\\
+kkj9@cornell.edu\\
+www.kjin.me\bigskip\par}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{Expected May 2016} & \textbf{M.Eng in Computer Science}, Cornell University College of Engineering\\
+
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{May 2015} & \textbf{B.A in Computer Science}, Cornell University College of Arts \& Sciences\\
+& \footnotesize{Awarded Dean's List (4 semesters)}
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+\textsc{June 2015 - Aug 2015} & \textbf{Software Development Engineer Intern}, Workday, Inc\\
+& \footnotesize{Created, tested, and documented an internal tool to extract, process and analyze logs in real time on test and production servers.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{June 2014 - Aug 2014} & \textbf{Software Development Engineer Intern}, Microsoft Corporation\\
+& \footnotesize{Implemented, debugged and tested IndexedDB storage features for Internet Explorer.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{June 2013 - May 2014} & \textbf{Student Research Assistant}, Cornell University Computer Graphics Lab\\
+& \footnotesize{Worked on a project to identify symmetries in 3D object geometry in order to compress redundant information related to its vibrational distortions, and also created a Blender plugin to convert animation and sound data to video.}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	OTHER EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Other Experience}
+
+\begin{tabular}{r|p{11cm}}
+
+\textsc{Aug 2015 - Present} & \textbf{Lead Teaching Assistant}, Analytics-Driven Game Design \\
+& \footnotesize{Responsibilities include maintaining the class database for logging player actions, grading assignments, and having meetings with project groups.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Aug 2014 - May 2015} & \textbf{Teaching Assistant}, Operating Systems (Fall 2014) \& Algorithms (Spring 2015) \\
+& \footnotesize{Held office hours, proctored and graded exams, and wrote automated tests for homework submissions.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Sept 2013 - May 2015} & \textbf{Secretary}, Cornell Computer Animation Club\\
+& \footnotesize{Sent weekly e-mails and announcements to over 200 members, maintained the club website, and organized movie showings, dinners, and guest speaker events for the club.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jan 2015 - May 2015} & \textbf{Project Group Lead}, \textit{Iridescence}\\
+& \textsc{Awarded CS-4152 Most Innovative Game (Spring 2015)}\\
+& \footnotesize{Worked in a team of five members on a semester-long mobile game project. Responsibilities included co-designing the architecture for the game, delegating tasks to team members, and organizing group work sessions.}\\
+\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS & INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Skills and Interests}
+
+\textbf{Programming Languages}: C, C++, C\#, Java, JavaScript, MATLAB, Python\\
+\textbf{Programming Tools/Environments}: Eclipse, IntelliJ, Microsoft Visual Studio, Unix\\
+\textbf{Areas of Knowledge}: Computer Graphics, Machine Learning, Operating Systems
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
